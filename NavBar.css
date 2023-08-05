@@ -1,41 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Permanent+Marker&family=Roboto:wght@400;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: white;
 
 }
 body{
     padding-top: 25px;
-    background-color: teal;
+    background-color: white;
 }
 
 .navbar{
     position: absolute;
     width: 90%;
-    height: 4rem;
+    height: 5rem;
     margin-left: 5%;
     padding:1.5rem 3rem 1rem 3rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border: 1px solid black;
+    background-color: #161616;
 }
 
 a{
-    color: black;
+    color: white;
     font-size: 1.5rem;
+}
+a:hover{
+    color: red;
+    border-bottom:3px solid;
+    border-image: linear-gradient(to right,transparent, red,transparent)1;
+}
+
+li:hover{
+    
+    transform: scale(1.1);
+    transition: .5s ease-in-out;
+}
+.nav-links{
+    width: 60%;
 }
 
 .nav-links ul{
     display: flex;
     justify-content: space-evenly;
+    width: 100%;
+
 }  
 
-.nav-links ul li{
+/* .nav-links ul li{
     margin: 0 3rem;
-}
+} */
 
 .hamburger{
     display: none;

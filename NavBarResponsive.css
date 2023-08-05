@@ -1,27 +1,33 @@
 @media(max-width:900px){
 
+    .logo{
+        margin-left:4rem;
+        margin-top:.6rem;
+
+    }
+
     .hamburger{
         display: block;
     }
 
     .nav-links{
         position: absolute;
-        background-color: teal;
+        background-color: #161616;
         width: 100%;
-        height: 100vh;
+        height: 101vh;
         top: 0;
         left: 0;
         display: flex;
         justify-content: center;
         align-items: center;
         overflow: hidden;
-        margin-left: -150%;
-        transition: 1s;
+        margin-top: -650%;
+        transition: .8s;
     }
 
     .active{
-        margin-left: 0px;
-        margin-top: -50px;
+
+        margin-top: -30px;
     }
 
     .nav-links ul{
@@ -41,6 +47,7 @@
     .nav-links ul li a{
 
         font-size: 4rem;
+        font-weight: 700;
     }   
 
    
@@ -49,6 +56,7 @@
         width: 100%;
         margin: 0;
         padding: 0;
+        border: 0;
 
     }
 
