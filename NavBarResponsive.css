@@ -1,0 +1,60 @@
+@media(max-width:900px){
+
+    .hamburger{
+        display: block;
+    }
+
+    .nav-links{
+        position: absolute;
+        background-color: teal;
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        margin-top: -150%;
+        transition: 1s;
+    }
+
+    .active{
+        margin-top: 0;
+    }
+
+    .nav-links ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }   
+
+
+
+
+    .nav-links ul li{
+        margin: 50px;
+    }
+ 
+    .nav-links ul li a{
+
+        font-size: 4rem;
+    }   
+
+   
+
+    .navbar{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+
+    .active{
+
+    }
+
+
+
+}

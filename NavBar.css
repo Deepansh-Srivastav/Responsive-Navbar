@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+body{
+    padding-top: 25px;
+    background-color: teal;
+}
+
+.navbar{
+    position: absolute;
+    width: 90%;
+    height: 4rem;
+    margin-left: 5%;
+    padding:1.5rem 3rem 1rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+}
+
+a{
+    color: black;
+    font-size: 1.5rem;
+}
+
+.nav-links ul{
+    display: flex;
+    justify-content: space-evenly;
+}  
+
+.nav-links ul li{
+    margin: 0 3rem;
+}
+
+.hamburger{
+    display: none;
+    position: absolute;
+    right: 40px;
+}
